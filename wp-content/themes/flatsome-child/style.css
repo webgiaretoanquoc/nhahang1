@@ -1,0 +1,265 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.section-dat-ban .div-form-tong ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1; /* Firefox */
+}
+
+.section-dat-ban  .div-form-tong :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: white;
+}
+
+.section-dat-ban .div-form-tong ::-ms-input-placeholder { /* Microsoft Edge */
+	color: white;
+}
+.section-dat-ban .div-form-tong select option{
+	color: black !important
+}
+.section-dat-ban .div-form-tong input,.section-dat-ban .div-form-tong select{
+	color: white;
+	background: transparent;
+	border-radius: 5px;
+}
+.section-thuc-don{
+	background: url('images/bgsp.jpg') repeat;
+}
+.section-thuc-don .box-category .box-image{
+	border: 5px solid white;
+}
+.section-thuc-don .box-text .count{
+	display: none;
+}
+.div-dat-ban{
+	text-align: center;
+}
+.div-dat-ban p,.div-dat-ban h3{
+	color: white;
+}
+.section-chi-duong .accordion .toggle{
+	left: unset !important;
+	right: 0 !important;
+}
+.links>li>a:before, i[class^="icon-"], i[class*=" icon-"]{
+
+
+}
+.div-menu{
+	padding-bottom: 0px;
+}
+h3.tinh-hoa{
+	margin-bottom: 0px;
+
+	text-align: center;
+}
+.section-chi-duong .active .icon-angle-down:before {
+	content: "\f056" !important;
+}
+.section-chi-duong  .icon-angle-down:before {
+	content: "\f055";
+}
+.title-tin-tuc{
+	color: #e74c3c;
+	text-transform: uppercase;
+}
+.product-title a{
+	font-weight: bold;
+	color: #e74c3c;
+}
+.title-home{
+
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #e74c3c;
+	font-size: 27px;
+}
+.star-rating span:before{
+	color: yellow;
+}
+.div-khach-hang p,.div-khach-hang h3{
+	color: white;
+}
+.div-form{
+	padding: 10px
+}
+.ui_tpicker_timezone{
+	display: none !important
+}
+.ui-datepicker dl dt,.ui-datepicker  dl dd{
+	display: block ;
+}
+.div-khach-hang{
+	background-color: #e62b4c;
+	background-image: url(images/feedback-bg-left.png);
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+
+}
+.div-tin-tuc{
+
+	background: #f1f1f1;
+	background-image: url(images/feedback-bg-right.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+.section-gioi-thieu{
+
+}
+.box-default.box-feature-figure .figure {
+	background: none;
+	padding: 0px;
+	border: none;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.box-feature-figure .figcaption {
+	text-align: center;
+	background-color: #ff8d00;
+}
+.box-feature-figure .figure {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	border: 1px solid #f1f1f1;
+	border-radius: 4px;
+	background: #FFF;
+	padding: 20px;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.box-feature-figure:hover .figcaption {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	color: #FFF;
+}
+.box-feature-figure:hover .figcaption h3 {
+	color: #fff;
+	margin-top: 20px;
+	font-weight: 300;
+}
+.box-feature-figure:hover .figure {
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	-ms-transform: scale(0.3);
+	-o-transform: scale(0.3);
+	transform: scale(0.3);
+	opacity: 0;
+}
+
+.flex-right ul li a{
+
+	font-size: 13px;
+}
+.box-feature-figure .figcaption {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	-ms-transform: scale(0.3);
+	-o-transform: scale(0.3);
+	transform: scale(0.3);
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+	border-radius: 5px;
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
+@media(min-width: 1025px){
+	h3.tinh-hoa{
+		font-size: 43px;
+	}
+}
